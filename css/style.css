@@ -8,9 +8,6 @@ header{
 	display: flex;
 	justify-content: space-between;
 }
-header h1{
-	font-size: 1.3em;
-}
 header span{
 	font-size: 0.9em;
 	text-decoration: underline;
@@ -29,7 +26,7 @@ header span{
 	padding-bottom: 30px;
 }
 #content-head{
-	border: 1px solid white;
+	border: 1px dashed white;
 	margin: auto;
 	margin-top: 50px;
 	width: 75%;
@@ -39,6 +36,11 @@ header span{
 #content-head h2{
 	text-align: center;
 	color: #7ea0b7;
+	float: left;
+	margin-top: -45px;
+	margin-left: 100px;
+	background-color: #0b1016;
+	
 }
 #content-head p{
 	font-size: 0.9em;
@@ -49,4 +51,22 @@ header span{
 }
 #corbeau #content-head p{
 	line-height: 20px;
+}
+/******************* Fin section img et texte ********************/
+/********************* Debut section Fantome ********************/
+#ghost{
+	width: 200px;
+	margin: auto;
+	text-align: center;
+}
+#boutton-top{
+	padding: 17px 21px 17px 21px;
+	background-color: #d66268;
+	border-radius: 5px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+#deals{
+	padding-bottom: 50px;
+	background: url('../images/bg-06.jpg');
 }
