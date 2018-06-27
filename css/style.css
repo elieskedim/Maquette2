@@ -1,22 +1,39 @@
 body{
 	background-color: #313d5a;
 	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
 }
+header{
+	padding: 40px 0px 40px 	0px;
+	display: flex;
+	justify-content: space-between;
+}
+header h1{
+	font-size: 1.3em;
+}
+header span{
+	font-size: 0.9em;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/*********************************    FIN DE L'ENTETE *********************/
+/**********************************   Début de la première section img et texte ************************/
+
 #content{
-	border: 1px solid black;
 	width: 600px;
 	margin: 0 auto;
 }
 #corbeau{
 	background-color: #0b1016;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 #content-head{
 	border: 1px solid white;
 	margin: auto;
-	margin-top: 70px;
-	width: 80%;
-	padding: 30px;
+	margin-top: 50px;
+	width: 75%;
+	padding: 25px;
 	border-radius: 5px;
 }
 #content-head h2{
@@ -25,4 +42,11 @@ body{
 }
 #content-head p{
 	font-size: 0.9em;
+}
+#corbeau #content-head h2{
+	font-size: 1.6em;
+	margin-bottom: 10px;
+}
+#corbeau #content-head p{
+	line-height: 20px;
 }
