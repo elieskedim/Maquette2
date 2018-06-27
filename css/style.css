@@ -1,0 +1,28 @@
+body{
+	background-color: #313d5a;
+	color: white;
+}
+#content{
+	border: 1px solid black;
+	width: 600px;
+	margin: 0 auto;
+}
+#corbeau{
+	background-color: #0b1016;
+	padding-bottom: 20px;
+}
+#content-head{
+	border: 1px solid white;
+	margin: auto;
+	margin-top: 70px;
+	width: 80%;
+	padding: 30px;
+	border-radius: 5px;
+}
+#content-head h2{
+	text-align: center;
+	color: #7ea0b7;
+}
+#content-head p{
+	font-size: 0.9em;
+}
