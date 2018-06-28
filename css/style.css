@@ -70,3 +70,46 @@ header span{
 	padding-bottom: 50px;
 	background: url('../images/bg-06.jpg');
 }
+/************************ Fin section Fantome *********************/
+/****** debut  section deals ***************************/
+.presentation{
+	width: 200px;
+	float: left;
+}
+.presentation div{
+	padding: 10px;;
+}
+.presentation div h3{
+	font-size: 1.1em;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.presentation div p{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 0.9em;
+	margin-bottom: 30px;
+}
+.presentation .button{
+	border: 1px solid white;
+	width: 35px;
+	margin: auto;
+	margin-bottom: 40px;
+	padding: 15px;
+	border-radius: 5px;
+}
+.presentation .button:hover{
+	background-color: #fff;
+	color: black;
+	cursor: pointer;
+}
+#left{
+	background-color: #1b2347;
+}
+#center{
+	background-color: #597081;
+}
+#right{
+	background-color: #7ea0b7;
+}
